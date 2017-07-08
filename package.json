@@ -1,0 +1,28 @@
+{
+  "name": "find-a-pad",
+  "version": "1.0.0",
+  "description": "A simple web app to help users find a nearby donation point for spare feminine hygiene products.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/findapad/find_a_pad.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/findapad/find_a_pad/issues"
+  },
+  "homepage": "https://github.com/findapad/find_a_pad#readme",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "webpack": "^3.1.0"
+  }
+}

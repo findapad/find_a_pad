@@ -5,6 +5,10 @@ def main(request):
     return render(request, 'welcome.html')
 
 def search(request):
+    information = {
+        ''
+    }
+
     return render(request, 'search.html')
 
 def location(request):

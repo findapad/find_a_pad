@@ -78,7 +78,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'find_a_pad',
-        'USER': 'spyapali',
+        'USER': 'isabellemiller',
         'PASSWORD': 'shalu1129',
         'HOST': '127.0.0.1',
         'PORT': '5432',

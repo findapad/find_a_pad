@@ -5,7 +5,6 @@ from django.db import models
 
 class Type(models.Model):
     name = models.CharField(max_length=200)
-    organization = models.ForeignKey(Organization, on_delete=models.CASCADE)
 
     def __repr__(self):
         return "{}".format(self.name)

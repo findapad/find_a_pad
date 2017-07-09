@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block title %} Find-A-Pad {% endblock %}
+{% block title %} Give-A-Pad {% endblock %}
 {% block header %} 
   <link type="text/css" rel="stylesheet" href="{% static 'find_a_pad_app/styles.css' %}">
   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script>
@@ -10,9 +10,12 @@
 
 {% block content %}
 <div class="landing-header-container">
-  <div class="landing-title">Welcome to Give-A-Pad</div>
+  <div class="landing-title">Welcome to<br>GIVE-A-PAD</div>
+  <br>
   <div class="landing-subtitle">Find out where to get rid of your spare pads & tampons now!</div>
   
+  <br><br>
+
   <div class="user-location-search">
     <input id="searchTextField" type="text" size="50">
   </div>

@@ -1,7 +1,16 @@
 appnope==0.1.0
+<<<<<<< HEAD
 decorator==4.0.11
 Django==1.11.3
 django-postgresql==0.0.3
+=======
+certifi==2017.4.17
+chardet==3.0.4
+decorator==4.0.11
+Django==1.11.3
+django-postgresql==0.0.3
+idna==2.5
+>>>>>>> master
 ipython==6.1.0
 ipython-genutils==0.2.0
 jedi==0.10.2
@@ -12,7 +21,15 @@ psycopg2==2.7.1
 ptyprocess==0.5.2
 Pygments==2.2.0
 pytz==2017.2
+<<<<<<< HEAD
 simplegeneric==0.8.1
 six==1.10.0
 traitlets==4.3.2
+=======
+requests==2.18.1
+simplegeneric==0.8.1
+six==1.10.0
+traitlets==4.3.2
+urllib3==1.21.1
+>>>>>>> master
 wcwidth==0.1.7

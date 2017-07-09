@@ -1,10 +1,30 @@
-<html>
-<title>Welcome</title>
+{% extends 'base.html' %}
+{% load static %}
 
-<h1>Find a Pad!!</h1>
-<body>
-    Find a place to dispose of extra pads you may have.
+{% block title %} Find-A-Pad {% endblock %}
+{% block header %} 
+  <link type="text/css" rel="stylesheet" href="{% static 'find_a_pad_app/styles.css' %}">
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script>
 
-</body>
+{% endblock %}
 
-</html>
+{% block content %}
+<div class="landing-header-container">
+  <div class="landing-title">Welcome to Give-A-Pad</div>
+  <div class="landing-subtitle">Find out where to get rid of your spare pads & tampons now!</div>
+  
+  <div class="user-location-search">
+    <input id="searchTextField" type="text" size="50">
+  </div>
+  <div class="search-btn">Donate!</div>
+</div>
+
+<script language="javascript">
+function initialize() {
+  var input = document.getElementById('searchTextField');
+  var autocomplete = new google.maps.places.Autocomplete(input);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+{% endblock %}
